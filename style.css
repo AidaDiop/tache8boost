@@ -1,0 +1,71 @@
+.navbar{
+    background-image: url(header-bg.jpg);
+    transition: height 2s, color 1s;
+}
+
+.banner{
+    background-image: url(header-bg.jpg);
+}
+
+p2{
+    color: white;
+    font-size: 90px;
+}
+
+p1{
+    color: white;
+    font-size: 50px;
+}
+
+.main-btn{
+    outline: none;
+}
+
+.port{
+    background-color: rgb(234, 228, 228);
+}
+
+.font{
+    background-color: rgb(255, 196, 0);
+    height: 200px;
+    width: 200px; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.font svg {
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+
+.card-img-top:hover{
+    background-color: gold;
+}
+
+.timeline{
+    position: relative;
+    margin: 100px auto;
+}
+
+.timeline::after{
+    width: 4px;
+    height: 400px;
+    left: 50%;
+    content: "";
+  position: absolute;
+  width: 2px;
+  background-color: #c5c7c9;
+  top: 0;
+  bottom: 0;
+}
+
+.tof img{
+    border-radius: 50%;
+    border: 6px solid rgb(193, 190, 190);
+
+}
