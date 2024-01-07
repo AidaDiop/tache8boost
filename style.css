@@ -258,6 +258,11 @@ textarea{
 
 
 @media screen and (max-width: 412px){
+
+
+    body{
+        margin: auto;
+    }
    
 .left-container::after{
     width: 4px;
