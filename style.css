@@ -40,9 +40,10 @@ p1{
     background-color: rgb(234, 228, 228);
 }
 
-.collone .card{
-    display: flex;
-    width: 200px;
+.card img:hover{
+    background-color: gold;
+    opacity: 0.8;
+  
 }
 
 /*-------------------------------------SERVICE---------------------------------------*/
@@ -209,21 +210,41 @@ span{
     
 }
 
-
+/*-------------------------------------FORM section---------------------------------------*/
 
 
 .form{
-    background-image: url(map-image\ \(1\).png);
+    background-image: url(map.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 
+.put{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
 
+input{
+    width: 385px;
+    height: 80px;
+    border-radius: 10px 10px 10px 10px;
+    outline: none;
+    gap: 10px;
+}
+
+textarea{
+    border-radius: 10px 10px 10px 10px;
+    outline: none;
+}
 
 
-
-
+.main-btn2{
+    outline: none;
+}
 
 
 
@@ -334,6 +355,9 @@ span{
   padding: 40px;
 }
 
-
+.put{
+    display: flex;
+    flex-direction: column;
+}
 
 }
