@@ -370,6 +370,10 @@ textarea{
     height: 200px;
 }
 
+input{
+    width: 360px;
+    height: 80px;
+}
 
 
 }
