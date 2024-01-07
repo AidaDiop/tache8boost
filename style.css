@@ -360,4 +360,11 @@ span{
     flex-direction: column;
 }
 
+textarea{
+    width: 385px;
+    height: 200px;
+}
+
+
+
 }
