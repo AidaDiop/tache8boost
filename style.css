@@ -32,6 +32,11 @@ p1{
     outline: none;
 }
 
+
+button{
+    outline: none;
+}
+
 /*-------------------------------------PRTFOLIO---------------------------------------*/
 
 
@@ -351,7 +356,7 @@ span{
 
 #team{
     background-color: rgb(234, 228, 228);
-    margin-top: 1100px;
+    margin-top: 1000px;
     
 }
 
